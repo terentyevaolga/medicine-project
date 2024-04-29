@@ -1,0 +1,9 @@
+pyTelegramBotAPI
+redis[hiredis]
+asyncio-redis
+aiohttp
+python-dotenv
+tortoise_orm
+tortoise_orm[asyncpg]
+pydantic
+apscheduler

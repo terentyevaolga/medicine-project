@@ -1,0 +1,205 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 40px 50px 91px;
+    width: calc(100% - 351px);
+    margin-left: 351px;
+    gap: 62px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #000B26A3;
+}
+
+.startButton {
+    width: 210px;
+    height: 43px;
+    background-color: #07C88E;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: left;
+}
+
+.quizBlock {
+    width: 472px;
+    border: solid 1px #1222581F;
+    padding: 41px;
+    display: flex;
+}
+
+.quizContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 41px;
+}
+
+.question {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    width: 100%;
+    color: #000B26A3;
+}
+
+.questionsBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 18px;
+}
+
+.answer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000B2666;
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: solid 1px #000B2629;
+    transition: 0.3s;
+    user-select: none;
+    width: 100%;
+}
+
+.greenAnswer {
+    background-color: #B3EDC8;
+    transition: 0.3s;
+}
+
+.answer:hover {
+    cursor: pointer;
+}
+
+.nextButton {
+    width: 245px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #3E507214;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #000B2699;
+}
+
+.finalButton {
+    width: 245px;
+    height: 40px;
+    background-color: #07C88E;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #fff;
+}
+
+.resultBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.resultText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #000B26A3;
+}
+
+.lineMaterial {
+    display: flex;
+    flex-direction: row;
+    gap: 82px;
+}
+
+.materialBlock {
+    width: 264px;
+    height: 319px;
+    border: solid 1px #1222581F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.materialBoxMetod {
+    width: 232px;
+    height: 267px;
+    background-color: rgba(227, 228, 235, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.materialBoxMetod:hover {
+    cursor: pointer;
+}
+
+.materialText {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #07C88E;
+    text-align: center;
+}
+
+
+.logOutBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    bottom: 20px;
+    align-items: center;
+}
+
+.logOutIcon {
+    transform: rotate(180deg);
+}
+
+.cources_item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #000B26A3;
+    transition: all 0.5s;
+    width: max-content;
+}
+
+.cources_item:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    text-decoration: underline;
+}

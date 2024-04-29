@@ -1,0 +1,33 @@
+.box {
+    width: 375px;
+    height: 29px;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    background-color: white;
+    box-shadow: 0 2px 8px #152D671F;
+    border-radius: 8px;
+    padding: 0 16px 0 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: left;
+}
+
+.input {
+    width: 100%;  
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;  
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input::placeholder {
+    font-size: 14px;
+    color: #000B267A;
+    line-height: 20px;
+}

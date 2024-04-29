@@ -1,0 +1,329 @@
+.container {
+    width: calc(100% - 351px);
+    margin-left: 351px;
+    padding: 143px 40px 60px 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #000B26A3;
+    margin-left: 12px;
+}
+
+.data {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+}
+
+.data_info {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.data_infoUser {
+    width: 384px;    
+    border-radius: 20px;
+    gap: 24px;
+    border: solid 1px #3E507229;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockNameMail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 16px;
+    width: 100%;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #000B26E0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.phone {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000B26B8;
+}
+
+.edit {
+    background-color: #3E507214;
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #000B26CC;
+}
+
+.tgButton {
+    background: linear-gradient(#2daef1, #057fbd);    
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #fff;
+}
+
+.tgButton:hover {
+    cursor: pointer;
+}
+
+.data_infoTests {
+    width: 384px;
+    border-radius: 20px;
+    gap: 24px;
+    border: solid 1px #3E507229;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.historyTestsTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000B26B8;
+}
+
+.testResultBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.testResult {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000B26B8;
+}
+
+.data_material {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px 0 0 0;
+    gap: 55px;
+}
+
+.data_materialTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000B26B8;
+}
+
+.materialBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    overflow: hidden;
+}
+
+.materialSubtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #000B26A3;
+}
+
+.materialContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    width: 100%;
+}
+
+.materialBox {
+    width: 279px;
+    height: 163px;
+    border: solid 1px #1222581F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.materialBoxMetod {
+    width: 232px;
+    height: 267px;
+    background-color: rgba(227,228,235, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.materialBoxMetod:hover {
+    cursor: pointer;
+}
+
+.materialText {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #07C88E;
+    text-align: center;
+}
+
+.modal {
+    width: 509px;
+    background-color: white;
+    margin-left: -50px;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.modal_headerBlock {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000B26E0;
+}
+
+.modal_close:hover {
+    cursor: pointer;
+}
+
+.modal_body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.modal_inputBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.modal_input {
+    height: 60px;
+    width: 100%;
+    color: #000;
+    border: solid 1px #000B2629;
+    border-radius: 8px;
+    padding: 20px 16px;
+}
+
+.editBlock {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.editBlocks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.titleEdit {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #000B26A3;
+}
+
+.editTwoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logOutBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    bottom: 20px;
+    align-items: center;
+}
+
+.logOutIcon {
+    transform: rotate(180deg);
+}
+
+.cources_item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #000B26A3;
+    transition: all 0.5s;
+    width: max-content;
+}
+
+.cources_item:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    text-decoration: underline;
+}

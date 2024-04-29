@@ -1,0 +1,340 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  color: #000B26A3;
+}
+
+.box {
+  width: 32%;
+  height: 29px;
+  background-color: white;
+  box-shadow: 0 2px 8px #152D671F;
+  border-radius: 8px;
+  padding: 0 16px 0 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: left;
+}
+
+.input {
+  width: 100%;
+  font-size: 14px;
+  color: #000;
+  line-height: 20px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  font-size: 14px;
+  color: #000B267A;
+  line-height: 20px;
+}
+
+.headerBlock {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.selectBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.menuButton {
+  width: 223px;
+  height: 32px;
+  background-color: white;
+  border: solid 1px #000B2629;
+  border-radius: 8px;
+  text-align: left;
+  padding: 0 16px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.menuButtonText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000B2666;
+  text-overflow: ellipsis;
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menuButtonBlock {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuList {
+  width: 198px;
+  margin-top: -8px;
+}
+
+.menuItem {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000B26B8;
+}
+
+.buttonApply {
+  width: 149px;
+  height: 32px;
+  background-color: #07C88E;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  text-align: left;
+}
+
+.materialBlock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 59px;
+}
+
+.materialHeaderBlock {
+  background-color: #07C88E99;
+  width: 100%;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 110px 0 28px;
+  height: 40px;
+}
+
+.tableHeaderText {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  user-select: none;
+}
+
+.materialBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 22px;
+}
+
+.tableItem {
+  background-color: #3E507214;
+  width: 100%;
+  border-radius: 60px;
+  align-items: center;
+  padding: 10px 117px 10px 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tableItemText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 32.5%;
+}
+
+.tableItemCourse {
+  width: 25%;
+  text-align: left;
+}
+
+.tableItemDelete {
+  width: 10%;
+  text-align: right;
+}
+
+.modalSignIn {
+  width: 509px;
+  background-color: white;
+  margin-left: -50px;
+  border-radius: 24px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.modal_headerBlock {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000B26E0;
+}
+
+.modal_close:hover {
+  cursor: pointer;
+}
+
+.modal_body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.modal_inputBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.modal_input {
+  height: 60px;
+  width: 100%;
+  color: #000;
+  border: solid 1px #000B2629;
+  border-radius: 8px;
+  padding: 20px 16px;
+}
+
+.modal_input::placeholder {
+  color: #000B26A3;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.modal_buttonBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal_registerText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000B26A3;
+}
+
+.modal_signUp {
+  color: #07C88E;
+}
+
+.modal_signUp:hover {
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.courseItem {
+
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #000B26CC;
+  background-color: #3E507214;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.courseItemCheck {
+  background-color: #060E21E0;
+  color: white;
+}
+
+.courseItem:hover {
+  cursor: pointer;
+}
+
+.menuButtonModal {
+  width: 412px;
+  height: 60px;
+  background-color: white;
+  border: solid 1px #000B2629;
+  border-radius: 8px;
+  text-align: left;
+  padding: 0 16px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.menuButtonTextModal {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000B2666;
+}
+
+.menuButtonBlockModal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menuListModal {
+  width: 412px;
+  margin-top: -8px;
+}
+
+.menuItemModal {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000B26B8;
+}

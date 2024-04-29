@@ -1,0 +1,252 @@
+.container {
+  width: 351px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 66px 0 0 105px;
+  gap: 68px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.containerLine {
+  border-right: solid 1px #000000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  color: #000B26A3;
+  user-select: none;
+}
+
+.blockMaterial {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+
+.cources {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cources_title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  color: #000B26A3;
+}
+
+.greenUnderline {
+  text-decoration: underline #07C88E;
+}
+
+
+.cources_itemList {
+  display: flex;
+  flex-direction: column;
+  padding-left: 14px;
+  gap: 10px;
+}
+
+.cources_item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  color: #000B26A3;
+  transition: all 0.5s;
+  width: max-content;
+}
+
+.greenText {
+  color: #07C88E;
+}
+
+.cources_itemMainPage {
+  user-select: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  color: #000B26A3;
+  transition: all 0.5s;
+  width: max-content;
+}
+
+.cources_item:hover {
+  cursor: pointer;
+  transition: all 0.5s;
+  text-decoration: underline;
+}
+
+.signIn {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.signIn:hover {
+  cursor: pointer;
+}
+
+.signin_button {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000B26CC;
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
+.account:hover {
+  cursor: pointer;
+}
+
+.account_button {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000B26CC;
+}
+
+.modalSignIn {
+  width: 509px;
+  background-color: white;
+  height: 489px;
+  margin-left: -50px;
+  border-radius: 24px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.modal_headerBlock {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000B26E0;
+}
+
+.modal_close:hover {
+  cursor: pointer;
+}
+
+.modal_body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.modal_inputBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.modal_input {
+  height: 60px;
+  width: 100%;
+  color: #000;
+  border: solid 1px #000B2629;
+  border-radius: 8px;
+  padding: 20px 16px;
+}
+
+.modal_input::placeholder {
+  color: #000B26A3;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.modal_buttonBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal_registerText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000B26A3;
+}
+
+.modal_signUp {
+  color: #07C88E;
+}
+
+.modal_signUp:hover {
+  cursor: pointer;
+}
+
+.modalSignUp {
+  width: 509px;
+  background-color: white;
+  height: 672px;
+  margin-left: -50px;
+  border-radius: 24px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.modalCode {
+  width: 480px;
+  background-color: white;
+  height: 380px;
+  margin-left: -50px;
+  border-radius: 24px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.logOutBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 130px;
+  align-items: center;
+}
+
+.logOutIcon {
+  transform: rotate(180deg);
+}

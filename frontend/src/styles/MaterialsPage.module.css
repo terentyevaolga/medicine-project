@@ -1,0 +1,95 @@
+.main {
+    width: calc(100% - 351px);
+    margin-left: 351px;
+    padding: 66px 40px 40px 66px;
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #000B26A3;
+}
+
+.navigationBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.navigationItem {
+    min-height: 40px;    
+    border-radius: 60px;
+    padding: 5px 20px;
+    color: #000B26CC;
+    background-color: #3E507214;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.navigationItem:hover {
+    cursor: pointer;
+}
+
+.navigationItemCheck {
+    background-color: #060E21E0;
+    color: white;
+}
+
+.buttonBlock {
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.materialBoxMetod {
+    width: 232px;
+    height: 267px;
+    background-color: rgba(227,228,235, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.materialBoxMetod:hover {
+    cursor: pointer;
+}
+
+.materialText {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    color: #07C88E;
+    width: 90%;
+    text-align: center;
+    user-select: none;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+.articleText {
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.articleText:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.3s;
+    color: blue;
+}
